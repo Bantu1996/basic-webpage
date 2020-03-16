@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ *{
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px; 
+}
+  
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>
+</head>
+<body>
+    <h2>Historical Places</h2>
+
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>Parliament of RSA</h2>
+        <img src= "Parliament.jpeg" width="50%">
+        <p>Some text..</p>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <h2>Church Square, spin street</h2>
+        <img src= "Church Square, spin street.jpeg" width="50%">
+        <p>Some text..</p>
+      </div>
+      <div class="column" style="background-color:#ccc;">
+        <h2>Castle of Good Hope</h2>
+        <img src= "Castle of Good Hope.jpeg" width="50%">
+        <p>Some text..</p>
+      </div>
+    </div>
+     
+</body>
+</html>
